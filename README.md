@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Data-Contracts-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Contracts-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Contracts-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Contracts-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Contracts-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Data-Contracts-Platform?style=flat-square&color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Contracts-Platform/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -66,45 +66,45 @@ Below is a curated tabular breakdown of leading commercial SaaS platforms suppor
 
 ## 🔓 Open-Source GitHub Projects
 
-Data contracts have rich open-source foundations. Below are top open-source projects sorted by **GitHub Star Count** (descending), featuring social star badges linking directly to each repository's stargazers page:
+Data contracts have rich open-source foundations. Below are top open-source projects sorted by **GitHub Stars_Count** (descending), featuring social Stars_Badges linking directly to each repository's stargazers page:
 
-1. **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** [![GitHub stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social)](https://github.com/open-metadata/OpenMetadata/stargazers)  
+1. **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** [![GitHub_Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social)](https://github.com/open-metadata/OpenMetadata/stargazers)  
    *All-in-one open-source data catalog & governance platform with native data contract definitions (schema, SLA, semantics) and interactive UI.*
 
-2. **[Bytebase](https://github.com/bytebase/bytebase)** [![GitHub stars](https://img.shields.io/github/stars/bytebase/bytebase?style=social)](https://github.com/bytebase/bytebase/stargazers)  
+2. **[Bytebase](https://github.com/bytebase/bytebase)** [![GitHub_Stars](https://img.shields.io/github/stars/bytebase/bytebase?style=social)](https://github.com/bytebase/bytebase/stargazers)  
    *Database DevOps & schema migration management platform with enforced SQL review policies and data change contracts.*
 
-3. **[DataHub](https://github.com/datahub-project/datahub)** [![GitHub stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social)](https://github.com/datahub-project/datahub/stargazers)  
+3. **[DataHub](https://github.com/datahub-project/datahub)** [![GitHub_Stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social)](https://github.com/datahub-project/datahub/stargazers)  
    *Extensible metadata platform supporting real-time assertions, schema evolution rules, and producer-consumer governance.*
 
-4. **[Great Expectations](https://github.com/great-expectations/great_expectations)** [![GitHub stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social)](https://github.com/great-expectations/great_expectations/stargazers)  
+4. **[Great Expectations](https://github.com/great-expectations/great_expectations)** [![GitHub_Stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social)](https://github.com/great-expectations/great_expectations/stargazers)  
    *Python validation framework for specifying data expectations as enforceable contracts during pipeline execution.*
 
-5. **[dlt (Data Load Tool)](https://github.com/dlt-hub/dlt)** [![GitHub stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social)](https://github.com/dlt-hub/dlt/stargazers)  
+5. **[dlt (Data Load Tool)](https://github.com/dlt-hub/dlt)** [![GitHub_Stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social)](https://github.com/dlt-hub/dlt/stargazers)  
    *Python-first data loading library with automatic schema inference, evolution policies, and structural contract guards.*
 
-6. **[Amundsen](https://github.com/amundsen-io/amundsen)** [![GitHub stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social)](https://github.com/amundsen-io/amundsen/stargazers)  
+6. **[Amundsen](https://github.com/amundsen-io/amundsen)** [![GitHub_Stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social)](https://github.com/amundsen-io/amundsen/stargazers)  
    *Data discovery and metadata engine created to track asset ownership, schema definitions, and usage context.*
 
-7. **[Schemathesis](https://github.com/schemathesis/schemathesis)** [![GitHub stars](https://img.shields.io/github/stars/schemathesis/schemathesis?style=social)](https://github.com/schemathesis/schemathesis/stargazers)  
+7. **[Schemathesis](https://github.com/schemathesis/schemathesis)** [![GitHub_Stars](https://img.shields.io/github/stars/schemathesis/schemathesis?style=social)](https://github.com/schemathesis/schemathesis/stargazers)  
    *Property-based contract testing tool for OpenAPI and GraphQL specifications.*
 
-8. **[OpenLineage](https://github.com/OpenLineage/OpenLineage)** [![GitHub stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social)](https://github.com/OpenLineage/OpenLineage/stargazers)  
+8. **[OpenLineage](https://github.com/OpenLineage/OpenLineage)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social)](https://github.com/OpenLineage/OpenLineage/stargazers)  
    *Open framework for collecting data lineage to trace contract dependencies between upstream producers and downstream consumers.*
 
-9. **[Confluent Schema Registry](https://github.com/confluentinc/schema-registry)** [![GitHub stars](https://img.shields.io/github/stars/confluentinc/schema-registry?style=social)](https://github.com/confluentinc/schema-registry/stargazers)  
+9. **[Confluent Schema Registry](https://github.com/confluentinc/schema-registry)** [![GitHub_Stars](https://img.shields.io/github/stars/confluentinc/schema-registry?style=social)](https://github.com/confluentinc/schema-registry/stargazers)  
    *Centralized schema repository providing compatibility checks for Apache Kafka message contracts (Avro, Protobuf, JSON Schema).*
 
-10. **[Soda Core](https://github.com/sodadata/soda-core)** [![GitHub stars](https://img.shields.io/github/stars/sodadata/soda-core?style=social)](https://github.com/sodadata/soda-core/stargazers)  
+10. **[Soda Core](https://github.com/sodadata/soda-core)** [![GitHub_Stars](https://img.shields.io/github/stars/sodadata/soda-core?style=social)](https://github.com/sodadata/soda-core/stargazers)  
     *CLI and Python library to express data quality contracts as YAML and execute checks in CI/CD or orchestration pipelines.*
 
-11. **[Elementary](https://github.com/elementary-data/elementary)** [![GitHub stars](https://img.shields.io/github/stars/elementary-data/elementary?style=social)](https://github.com/elementary-data/elementary/stargazers)  
+11. **[Elementary](https://github.com/elementary-data/elementary)** [![GitHub_Stars](https://img.shields.io/github/stars/elementary-data/elementary?style=social)](https://github.com/elementary-data/elementary/stargazers)  
     *dbt-native observability framework for validating models, checking schemas, and enforcing dbt data contracts.*
 
-12. **[Marquez](https://github.com/marquezproject/marquez)** [![GitHub stars](https://img.shields.io/github/stars/marquezproject/marquez?style=social)](https://github.com/marquezproject/marquez/stargazers)  
+12. **[Marquez](https://github.com/marquezproject/marquez)** [![GitHub_Stars](https://img.shields.io/github/stars/marquezproject/marquez?style=social)](https://github.com/marquezproject/marquez/stargazers)  
     *OpenLineage reference implementation for collecting, storing, and visualizing dataset metadata and contract lineage.*
 
-13. **[Data Contract CLI](https://github.com/datacontract/cli)** [![GitHub stars](https://img.shields.io/github/stars/datacontract/cli?style=social)](https://github.com/datacontract/cli/stargazers)  
+13. **[Data Contract CLI](https://github.com/datacontract/cli)** [![GitHub_Stars](https://img.shields.io/github/stars/datacontract/cli?style=social)](https://github.com/datacontract/cli/stargazers)  
     *Open-source CLI tool to lint, test, and enforce YAML-based Data Contract Specification files against databases and warehouses.*
 
 ---
@@ -124,7 +124,7 @@ A modern open-source Data Contract pipeline setup typically combines:
 Contributions are warmly welcomed! 💖
 1. **Fork** the repository.
 2. Add or update entries in `README.md` following the tabular or badged structure.
-3. Ensure links, pricing, free tier limits, and star counts are accurate.
+3. Ensure links, pricing, free tier limits, and Stars_Counts are accurate.
 4. Submit a **Pull Request** with a clear explanation of changes.
 
 For curated lists guidelines, see [Awesome Lists](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
