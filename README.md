@@ -1,6 +1,6 @@
 # Awesome-Data-Contracts-Platform
 
-# Top Data Contracts Platforms Ecosystem
+## Top Data Contracts Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Schema Agreements, Quality SLAs, Producer–Consumer Contracts, Stream/API Contracts & Enforceable Data Promises*
 **Last updated: October 2026**
