@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="glowGradiant" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="25" result="blur" />
+    </filter>
+
+    <style>
+      @keyframes floatParticle {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+        50% { transform: translateY(-15px) translateX(10px); opacity: 0.8; }
+        100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      }
+
+      @keyframes pulseLine {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      @keyframes ringGlow {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.05); }
+      }
+
+      .particle { animation: floatParticle 6s ease-in-out infinite; }
+      .p2 { animation-delay: 2s; }
+      .p3 { animation-delay: 4s; }
+
+      .stream-line {
+        stroke: url(#cyanPurple);
+        stroke-width: 2.5;
+        stroke-dasharray: 12 8;
+        animation: pulseLine 15s linear infinite;
+      }
+
+      .badge-bg {
+        fill: #1e293b;
+        stroke: #38bdf8;
+        stroke-width: 1;
+        opacity: 0.85;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" rx="16"/>
+
+  <!-- Background Animated Decorative Elements (Glow Orbs & Flow Lines) -->
+  <g class="background-elements">
+    <!-- Glowing Orbs -->
+    <circle cx="150" cy="80" r="140" fill="#06b6d4" opacity="0.15" filter="url(#softGlow)"/>
+    <circle cx="1050" cy="280" r="160" fill="#ec4899" opacity="0.12" filter="url(#softGlow)"/>
+    <circle cx="600" cy="180" r="220" fill="url(#glowGradiant)" filter="url(#softGlow)"/>
+
+    <!-- Dynamic Pipeline & Data Flow Paths -->
+    <path class="stream-line" d="M -50,60 Q 300,120 600,50 T 1250,90" fill="none"/>
+    <path class="stream-line p2" d="M -50,300 Q 350,220 700,310 T 1250,270" fill="none"/>
+
+    <!-- Floating Background Nodes / Particles -->
+    <circle cx="200" cy="100" r="4" fill="#38bdf8" class="particle"/>
+    <circle cx="950" cy="80" r="6" fill="#a855f7" class="particle p2"/>
+    <circle cx="1100" cy="220" r="5" fill="#f43f5e" class="particle p3"/>
+    <circle cx="120" cy="280" r="7" fill="#818cf8" class="particle p2"/>
+    
+    <!-- Decorative Data Contract Schema Node Cards in Background -->
+    <rect x="70" y="190" width="160" height="60" rx="8" class="badge-bg"/>
+    <text x="85" y="215" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">PRODUCER SCHEMA</text>
+    <text x="85" y="235" fill="#94a3b8" font-family="monospace" font-size="11">✓ v2.4 Enforced</text>
+
+    <rect x="970" y="110" width="160" height="60" rx="8" class="badge-bg"/>
+    <text x="985" y="135" fill="#ec4899" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">CONSUMER SLA</text>
+    <text x="985" y="155" fill="#94a3b8" font-family="monospace" font-size="11">⚡ 99.99% Quality</text>
+  </g>
+
+  <!-- Foreground Content Container (Ensures Title & Subtitle Stay Unobstructed) -->
+  <g class="foreground-content" transform="translate(600, 160)" text-anchor="middle">
+    <!-- Top Pill Badge -->
+    <rect x="-140" y="-105" width="280" height="32" rx="16" fill="#0f172a" stroke="url(#cyanPurple)" stroke-width="1.5"/>
+    <text x="0" y="-84" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">
+      📜 DATA GOVERNANCE &amp; QUALITY ⚡
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="-20" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="900" letter-spacing="-0.5" filter="url(#glow)">
+      Awesome Data Contracts Platform
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="22" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+      Curated List of SaaS Products &amp; Open-Source Projects for Schema &amp; Quality Governance
+    </text>
+
+    <!-- Feature Tag Pills -->
+    <g transform="translate(0, 65)">
+      <!-- Pill 1 -->
+      <rect x="-245" y="0" width="150" height="28" rx="14" fill="#1e293b" stroke="#334155"/>
+      <text x="-170" y="18" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🛡️ Schema Agreements</text>
+
+      <!-- Pill 2 -->
+      <rect x="-80" y="0" width="160" height="28" rx="14" fill="#1e293b" stroke="#334155"/>
+      <text x="0" y="18" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">📊 Quality SLAs &amp; Checks</text>
+
+      <!-- Pill 3 -->
+      <rect x="95" y="0" width="150" height="28" rx="14" fill="#1e293b" stroke="#334155"/>
+      <text x="170" y="18" fill="#f43f5e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🤝 Producer-Consumer</text>
+    </g>
+  </g>
+</svg>
